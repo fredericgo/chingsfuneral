@@ -1,4 +1,50 @@
 header p {
-	/* width: 30%; */
-	/* background: rgba(255,255,255,0.3); */
+    /* width: 30%; */
+    /* background: rgba(255,255,255,0.3); */
+}
+
+#banner1 {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/banner1.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+@media(min-width:768px) {
+    #banner1 {
+        min-height: 100%;
+    }
+}
+
+#banner2 {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/banner2.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+@media(min-width:768px) {
+    #banner2 {
+        min-height: 100%;
+    }
+}
+
+
+section {
+	font-size: 20px;
+	font-weight: 300;
 }
